@@ -10,8 +10,10 @@ def index():
     Goal: Display all messages from the database.
 
     Instructions:
-    - This route is already implemented to display messages from the 'messages' table.
-    - Participants should ensure that the 'messages' table exists and is properly populated.
+    - Complete the SQLite database connection and cursor.
+    - Fetch all messages from the 'messages' table.
+    - Close the database connection.
+    - Render the 'index.html' template with the messages.
 
     Example Output (when completed):
     Display a list of messages on the webpage.
